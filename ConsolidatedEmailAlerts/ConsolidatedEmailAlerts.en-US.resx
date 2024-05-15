@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutSPCWorkBenchToolStripMenuItem" xml:space="preserve">
+    <value>&amp;About SPC WorkBench</value>
+  </data>
+  <data name="activateTrendMessagesToolStripMenuItem" xml:space="preserve">
+    <value>Activate &amp;Trend Messages...</value>
+  </data>
+  <data name="applyControlLimitsToolStripMenuItem" xml:space="preserve">
+    <value>Apply &amp;Control Limits...</value>
+  </data>
+  <data name="arrangeIconsToolStripMenuItem" xml:space="preserve">
+    <value>Arrange &amp;Icons</value>
+  </data>
+  <data name="attachedPictureToolStripMenuItem" xml:space="preserve">
+    <value>Attached &amp;Picture</value>
+  </data>
+  <data name="attachPictureToolStripMenuItem" xml:space="preserve">
+    <value>Attach &amp;Picture</value>
+  </data>
+  <data name="autoDateTimeToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Auto Date Time</value>
+  </data>
+  <data name="blockTraceabilityToolStripMenuItem" xml:space="preserve">
+    <value>Apply &amp;traceability to block of subgroups...</value>
+  </data>
+  <data name="cascadeToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Cascade</value>
+  </data>
+  <data name="closeAllToolStripMenuItem" xml:space="preserve">
+    <value>C&amp;lose All</value>
+  </data>
+  <data name="CloseProcessMenuItem" xml:space="preserve">
+    <value>&amp;Close Process</value>
+  </data>
+  <data name="contentsToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Contents</value>
+  </data>
+  <data name="dataListToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Data View</value>
+  </data>
+  <data name="dataToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Data</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>days.</value>
+  </data>
+  <data name="defaultDataLocationToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Default Data Location...</value>
+  </data>
+  <data name="defectDescriptionsToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Defect Descriptions...</value>
+  </data>
+  <data name="deleteDataToolStripMenuItem" xml:space="preserve">
+    <value>De&amp;lete Data...</value>
+  </data>
+  <data name="Demoexpiresin" xml:space="preserve">
+    <value>Demo expires in</value>
+  </data>
+  <data name="DemoExpiresInOneDay" xml:space="preserve">
+    <value>Demo expires in 1 day.</value>
+  </data>
+  <data name="Demohasexpired" xml:space="preserve">
+    <value>Demo has expired.</value>
+  </data>
+  <data name="documentDetailsToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Report Settings...</value>
+  </data>
+  <data name="editParameterToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Edit Parameter...</value>
+  </data>
+  <data name="editProcessDetailstoolStripMenuItem" xml:space="preserve">
+    <value>Edit &amp;Process Details...</value>
+  </data>
+  <data name="emailSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Email...</value>
+  </data>
+  <data name="eventTemplateToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Event Template...</value>
+  </data>
+  <data name="eventToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Event...</value>
+  </data>
+  <data name="exitSPCWorkBenchToolStripMenuItem1" xml:space="preserve">
+    <value>E&amp;xit SPC WorkBench</value>
+  </data>
+  <data name="fileToolStripMenuItem" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="frmSPCMDIParent" xml:space="preserve">
+    <value>SPC WorkBench</value>
+  </data>
+  <data name="helpToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="ImportDatatoolStripMenuItem" xml:space="preserve">
+    <value>&amp;Import Data...</value>
+  </data>
+  <data name="indexToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Index</value>
+  </data>
+  <data name="LastDayToEvaluateSW" xml:space="preserve">
+    <value>It's a last day to evaluate the software!</value>
+  </data>
+  <data name="MaintoolStripMenuItem" xml:space="preserve">
+    <value>&amp;Main</value>
+  </data>
+  <data name="msgAutoDateTimeDisabled" xml:space="preserve">
+    <value>Auto Date &amp; Time is disabled.</value>
+  </data>
+  <data name="msgAutoDateTimeEnabled" xml:space="preserve">
+    <value>Auto Date &amp; Time is enabled.</value>
+  </data>
+  <data name="msgChangeDataPath" xml:space="preserve">
+    <value>Change the Data Path using 'Default Data Location' option from the 'Settings' menu.
+</value>
+  </data>
+  <data name="msgChangeDataPathUsingDefaultDataLocation" xml:space="preserve">
+    <value>Change the Data Path using 'Default Data Location' option from the 'Settings' Menu.</value>
+  </data>
+  <data name="msgConfirmedQuit" xml:space="preserve">
+    <value>Do you want to Quit process(es)</value>
+  </data>
+  <data name="msgContactUsAt" xml:space="preserve">
+    <value>Please contact us at:</value>
+  </data>
+  <data name="msgDataPathNotFound" xml:space="preserve">
+    <value>Data Path cannot be found!</value>
+  </data>
+  <data name="msgDemoExpired" xml:space="preserve">
+    <value>Demo expired!!!</value>
+  </data>
+  <data name="msgEmailDatFileMissing" xml:space="preserve">
+    <value>The file 'EMAIL.DAT' is missing. SPC WorkBench Software is not installed properly.
+</value>
+  </data>
+  <data name="msgException" xml:space="preserve">
+    <value>Exception :</value>
+  </data>
+  <data name="msgFileSavedInNewFormat" xml:space="preserve">
+    <value>saved successfully in</value>
+  </data>
+  <data name="msgImageFileAttachment" xml:space="preserve">
+    <value>Only image files can be attached
+</value>
+  </data>
+  <data name="msgInformation" xml:space="preserve">
+    <value>To open .spc file into 'SPC WorkBench' you have to convert it into new .spcx file format.</value>
+  </data>
+  <data name="msgInvalidSPCXFile" xml:space="preserve">
+    <value>This is an invalid SPC/SPCx file.
+</value>
+  </data>
+  <data name="msgPathNotExists" xml:space="preserve">
+    <value>Data Path does not exists
+</value>
+  </data>
+  <data name="msgPCLDisable" xml:space="preserve">
+    <value>Show Provisional Control Limits is disabled.</value>
+  </data>
+  <data name="msgPCLEnabled" xml:space="preserve">
+    <value>Show Provisional Control Limits is enabled.</value>
+  </data>
+  <data name="msgProperExtension" xml:space="preserve">
+    <value>Select appropriate extenstion.</value>
+  </data>
+  <data name="msgScaleAllCCDisable" xml:space="preserve">
+    <value>Scale all Control Chart is disabled.</value>
+  </data>
+  <data name="msgScaleAllCCEnable" xml:space="preserve">
+    <value>Scale all Control Chart is enabled.</value>
+  </data>
+  <data name="msgShowOptionDialogDisabled" xml:space="preserve">
+    <value>Show Option Dialogue Box at Startup is disabled.</value>
+  </data>
+  <data name="msgShowOptionDialogEnabled" xml:space="preserve">
+    <value>Show Option Dialogue Box at Startup is enabled.</value>
+  </data>
+  <data name="msgSPCTemplateDatFileMissing" xml:space="preserve">
+    <value>The file 'SPCTEMPLATE.DAT' is missing. SPC WorkBench Software is not installed properly.
+</value>
+  </data>
+  <data name="msgTraceDatFileMissing" xml:space="preserve">
+    <value>The file 'TRACE.DAT' is missing. SPC WorkBench Software is not installed properly.
+</value>
+  </data>
+  <data name="msgTrendmsgActivated" xml:space="preserve">
+    <value>Trend Messages activated.
+</value>
+  </data>
+  <data name="msgTrendmsgDeactivated" xml:space="preserve">
+    <value>Trend Messages deactivated.
+</value>
+  </data>
+  <data name="msgUserDatFileMissing" xml:space="preserve">
+    <value>The file 'USER.DAT' is missing. SPC WorkBench Software is not installed properly.
+</value>
+  </data>
+  <data name="msgWantToConvertFromOldFileToNewFile" xml:space="preserve">
+    <value>The file you have chosen (.spc) is the older version of SPC WorkBench. 
+If you need to open the file in the new version of SPC WorkBench, this file needs to saved in new (.spcx) format. Your original file will remain as it is. Do you want to save the file in a new format?</value>
+  </data>
+  <data name="newProcessToolStripMenuItem" xml:space="preserve">
+    <value>&amp;New Process...</value>
+  </data>
+  <data name="openProcessToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Open Process...</value>
+  </data>
+  <data name="processToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Process</value>
+  </data>
+  <data name="RecentFilesToolStripMenuItem" xml:space="preserve">
+    <value>Recent &amp;Files</value>
+  </data>
+  <data name="reportBuilderToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Report Builder</value>
+  </data>
+  <data name="searchToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="settingToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="showStartupOptionsToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Show Option Dialogue Box at Startup</value>
+  </data>
+  <data name="subgroupToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Subgroup Information...</value>
+  </data>
+  <data name="tileHorizontalToolStripMenuItem" xml:space="preserve">
+    <value>Tile &amp;Horizontal</value>
+  </data>
+  <data name="tileVerticalToolStripMenuItem" xml:space="preserve">
+    <value>Tile &amp;Vertical</value>
+  </data>
+  <data name="toolStripMenuItem1" xml:space="preserve">
+    <value>Options &amp;DialogBox...</value>
+  </data>
+  <data name="toolStripMenuItemChangePassword" xml:space="preserve">
+    <value>Change &amp;Password...</value>
+  </data>
+  <data name="toolStripMenuItemEmailSettings" xml:space="preserve">
+    <value>Email-&amp;Settings...</value>
+  </data>
+  <data name="toolStripMenuItemPredefineControlLimitsApply" xml:space="preserve">
+    <value>Show &amp;Provisional Control Limits</value>
+  </data>
+  <data name="toolStripMenuItemscaleAll" xml:space="preserve">
+    <value>S&amp;cale All Control chart</value>
+  </data>
+  <data name="traceabilityTemolateToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Traceability Template...</value>
+  </data>
+  <data name="traceabilityToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Traceability...</value>
+  </data>
+  <data name="userManagementToolStripMenuItem" xml:space="preserve">
+    <value>&amp;User Management...</value>
+  </data>
+  <data name="viewToolStripMenuItem" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="windowToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Window</value>
+  </data>
+</root>
